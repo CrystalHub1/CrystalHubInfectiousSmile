@@ -60,40 +60,55 @@ local UICorner_16 = Instance.new("UICorner")
 local lens_3 = Instance.new("ImageButton")
 local TextLabel_8 = Instance.new("TextLabel")
 local UIGradient_3 = Instance.new("UIGradient")
-local MainFrame = Instance.new("ScrollingFrame")
-local Frame_4 = Instance.new("ImageLabel")
-local TextLabel_9 = Instance.new("TextLabel")
-local NoCollapseB = Instance.new("TextButton")
+local NoclipB_2 = Instance.new("TextButton")
 local UICorner_17 = Instance.new("UICorner")
 local Effect_8 = Instance.new("ImageLabel")
-local ResetB = Instance.new("TextButton")
+local NoclipB_3 = Instance.new("TextButton")
 local UICorner_18 = Instance.new("UICorner")
 local Effect_9 = Instance.new("ImageLabel")
-local Frame_5 = Instance.new("ImageLabel")
-local TextLabel_10 = Instance.new("TextLabel")
-local BringWeaponsB = Instance.new("TextButton")
+local NoclipB_4 = Instance.new("TextButton")
 local UICorner_19 = Instance.new("UICorner")
 local Effect_10 = Instance.new("ImageLabel")
-local NoBatCooldownB = Instance.new("TextButton")
+local NoclipB_5 = Instance.new("TextButton")
 local UICorner_20 = Instance.new("UICorner")
 local Effect_11 = Instance.new("ImageLabel")
-local NoBottleCooldownB = Instance.new("TextButton")
+local NoclipB_6 = Instance.new("TextButton")
 local UICorner_21 = Instance.new("UICorner")
 local Effect_12 = Instance.new("ImageLabel")
-local Frame_6 = Instance.new("ImageLabel")
-local TextLabel_11 = Instance.new("TextLabel")
-local TeamInfectedB = Instance.new("TextButton")
+local NoclipB_7 = Instance.new("TextButton")
 local UICorner_22 = Instance.new("UICorner")
 local Effect_13 = Instance.new("ImageLabel")
-local TeamNeaturalB = Instance.new("TextButton")
+local Logo = Instance.new("Frame")
 local UICorner_23 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local MainFrame = Instance.new("Frame")
+local BringWeaponsB = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
 local Effect_14 = Instance.new("ImageLabel")
 local FinalBaseB = Instance.new("TextButton")
-local UICorner_24 = Instance.new("UICorner")
-local Effect_15 = Instance.new("ImageLabel")
-local Logo = Instance.new("Frame")
 local UICorner_25 = Instance.new("UICorner")
-local ImageLabel = Instance.new("ImageLabel")
+local Effect_15 = Instance.new("ImageLabel")
+local NoBatCooldownB = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local Effect_16 = Instance.new("ImageLabel")
+local NoBottleCooldownB = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local Effect_17 = Instance.new("ImageLabel")
+local NoCollapseB = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local Effect_18 = Instance.new("ImageLabel")
+local ResetB = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local Effect_19 = Instance.new("ImageLabel")
+local TeamInfectedB = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local Effect_20 = Instance.new("ImageLabel")
+local Frame_4 = Instance.new("ImageLabel")
+local Frame_5 = Instance.new("ImageLabel")
+local Frame_6 = Instance.new("ImageLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
 
 
 CrystalHubInfectionSmile.Name = "CrystalHubInfectionSmile"
@@ -103,7 +118,7 @@ CrystalHubV2Main.Name = "CrystalHubV2Main"
 CrystalHubV2Main.Parent = CrystalHubInfectionSmile
 CrystalHubV2Main.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
 CrystalHubV2Main.BackgroundTransparency = 1.000
-CrystalHubV2Main.Position = UDim2.new(0.252737224, 0, 0.99999994, 0)
+CrystalHubV2Main.Position = UDim2.new(0.251824826, 0, 0.191650748, 0)
 CrystalHubV2Main.Size = UDim2.new(0, 542, 0, 347)
 CrystalHubV2Main.Image = "rbxassetid://3570695787"
 CrystalHubV2Main.ImageColor3 = Color3.fromRGB(18, 18, 18)
@@ -128,6 +143,7 @@ TextLabel.TextWrapped = true
 ButtonFrame.Name = "ButtonFrame"
 ButtonFrame.Parent = CrystalHubV2Main
 ButtonFrame.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+ButtonFrame.Position = UDim2.new(0, 0, -0.0028818443, 0)
 ButtonFrame.Size = UDim2.new(0, 163, 0, 347)
 ButtonFrame.ZIndex = 3
 
@@ -332,11 +348,6 @@ MainB.Text = "Main"
 MainB.TextColor3 = Color3.fromRGB(231, 231, 231)
 MainB.TextSize = 14.000
 MainB.TextWrapped = true
-MainB.MouseButton1Down:connect(function()
-DiscordFrame.Visible = false
-UniversalFrame.Visible = false
-MainFrame.Visible = true
-end)
 
 UICorner_8.CornerRadius = UDim.new(0, 4)
 UICorner_8.Parent = MainB
@@ -366,8 +377,8 @@ Frame_2.Name = "Frame"
 Frame_2.Parent = UniversalFrame
 Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame_2.BackgroundTransparency = 1.000
-Frame_2.Position = UDim2.new(0.0184696577, 0, 0.0187319908, 0)
-Frame_2.Size = UDim2.new(0, 365, 0, 212)
+Frame_2.Position = UDim2.new(0.0184696577, 0, 0.0158501454, 0)
+Frame_2.Size = UDim2.new(0, 151, 0, 212)
 Frame_2.ZIndex = 3
 Frame_2.Image = "rbxassetid://3570695787"
 Frame_2.ImageColor3 = Color3.fromRGB(29, 29, 29)
@@ -378,7 +389,7 @@ Frame_2.SliceScale = 0.050
 TextLabel_5.Parent = UniversalFrame
 TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_5.BackgroundTransparency = 1.000
-TextLabel_5.Position = UDim2.new(0.0369393155, 0, 0.0187321585, 0)
+TextLabel_5.Position = UDim2.new(0.0369393155, 0, 0.0144093921, 0)
 TextLabel_5.Size = UDim2.new(0, 70, 0, 17)
 TextLabel_5.ZIndex = 3
 TextLabel_5.Font = Enum.Font.GothamBold
@@ -391,7 +402,7 @@ NoclipB.Parent = UniversalFrame
 NoclipB.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
 NoclipB.ClipsDescendants = true
 NoclipB.Position = UDim2.new(0.0481529236, 0, 0.0568296611, 0)
-NoclipB.Size = UDim2.new(0, 342, 0, 22)
+NoclipB.Size = UDim2.new(0, 128, 0, 22)
 NoclipB.ZIndex = 3
 NoclipB.Font = Enum.Font.GothamBold
 NoclipB.Text = "Noclip (E)"
@@ -417,7 +428,7 @@ FlyB.Parent = UniversalFrame
 FlyB.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
 FlyB.ClipsDescendants = true
 FlyB.Position = UDim2.new(0.0481529236, 0, 0.107261941, 0)
-FlyB.Size = UDim2.new(0, 342, 0, 22)
+FlyB.Size = UDim2.new(0, 128, 0, 22)
 FlyB.ZIndex = 3
 FlyB.Font = Enum.Font.GothamBold
 FlyB.Text = "Fly (F)"
@@ -443,7 +454,7 @@ BtoolsB.Parent = UniversalFrame
 BtoolsB.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
 BtoolsB.ClipsDescendants = true
 BtoolsB.Position = UDim2.new(0.0481529236, 0, 0.157694221, 0)
-BtoolsB.Size = UDim2.new(0, 342, 0, 22)
+BtoolsB.Size = UDim2.new(0, 128, 0, 22)
 BtoolsB.ZIndex = 3
 BtoolsB.Font = Enum.Font.GothamBold
 BtoolsB.Text = "Btools"
@@ -469,7 +480,7 @@ InfiniteJuB.Parent = UniversalFrame
 InfiniteJuB.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
 InfiniteJuB.ClipsDescendants = true
 InfiniteJuB.Position = UDim2.new(0.0481529236, 0, 0.209567413, 0)
-InfiniteJuB.Size = UDim2.new(0, 342, 0, 22)
+InfiniteJuB.Size = UDim2.new(0, 128, 0, 22)
 InfiniteJuB.ZIndex = 3
 InfiniteJuB.Font = Enum.Font.GothamBold
 InfiniteJuB.Text = "Infinite Jump"
@@ -495,7 +506,7 @@ AdminB.Parent = UniversalFrame
 AdminB.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
 AdminB.ClipsDescendants = true
 AdminB.Position = UDim2.new(0.0481529236, 0, 0.261440635, 0)
-AdminB.Size = UDim2.new(0, 342, 0, 22)
+AdminB.Size = UDim2.new(0, 128, 0, 22)
 AdminB.ZIndex = 3
 AdminB.Font = Enum.Font.GothamBold
 AdminB.Text = "Infinite Yield (Admin)"
@@ -531,7 +542,7 @@ Frame_3.SliceScale = 0.050
 
 GravityFill.Name = "GravityFill"
 GravityFill.Parent = UniversalFrame
-GravityFill.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GravityFill.BackgroundColor3 = Color3.fromRGB(136, 136, 136)
 GravityFill.BorderColor3 = Color3.fromRGB(0, 0, 0)
 GravityFill.BorderSizePixel = 0
 GravityFill.Position = UDim2.new(0.045799166, 0, 0.544187546, 0)
@@ -567,7 +578,7 @@ UIGradient.Parent = GravityFill
 
 JumppowerFill.Name = "JumppowerFill"
 JumppowerFill.Parent = UniversalFrame
-JumppowerFill.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JumppowerFill.BackgroundColor3 = Color3.fromRGB(136, 136, 136)
 JumppowerFill.BorderColor3 = Color3.fromRGB(0, 0, 0)
 JumppowerFill.BorderSizePixel = 0
 JumppowerFill.Position = UDim2.new(0.045799166, 0, 0.471243262, 0)
@@ -603,7 +614,7 @@ UIGradient_2.Parent = JumppowerFill
 
 WalkspeedFill.Name = "WalkspeedFill"
 WalkspeedFill.Parent = UniversalFrame
-WalkspeedFill.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WalkspeedFill.BackgroundColor3 = Color3.fromRGB(136, 136, 136)
 WalkspeedFill.BorderColor3 = Color3.fromRGB(0, 0, 0)
 WalkspeedFill.BorderSizePixel = 0
 WalkspeedFill.Position = UDim2.new(0.045799166, 0, 0.398299009, 0)
@@ -637,58 +648,24 @@ TextLabel_8.TextSize = 14.000
 UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(28, 255, 66)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
 UIGradient_3.Parent = WalkspeedFill
 
-MainFrame.Name = "MainFrame"
-MainFrame.Parent = CrystalHubV2Main
-MainFrame.Active = true
-MainFrame.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
-MainFrame.BorderSizePixel = 0
-MainFrame.Position = UDim2.new(0.300738007, 0, 0, 0)
-MainFrame.Size = UDim2.new(0, 379, 0, 347)
-MainFrame.ZIndex = 2
-MainFrame.ScrollBarThickness = 2
-
-Frame_4.Name = "Frame"
-Frame_4.Parent = MainFrame
-Frame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_4.BackgroundTransparency = 1.000
-Frame_4.Position = UDim2.new(0.0211081803, 0, 0.0216138326, 0)
-Frame_4.Size = UDim2.new(0, 365, 0, 126)
-Frame_4.ZIndex = 3
-Frame_4.Image = "rbxassetid://3570695787"
-Frame_4.ImageColor3 = Color3.fromRGB(29, 29, 29)
-Frame_4.ScaleType = Enum.ScaleType.Slice
-Frame_4.SliceCenter = Rect.new(100, 100, 100, 100)
-Frame_4.SliceScale = 0.050
-
-TextLabel_9.Parent = MainFrame
-TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_9.BackgroundTransparency = 1.000
-TextLabel_9.Position = UDim2.new(0.018469654, 0, 0.0216138754, 0)
-TextLabel_9.Size = UDim2.new(0, 34, 0, 17)
-TextLabel_9.ZIndex = 3
-TextLabel_9.Font = Enum.Font.GothamBold
-TextLabel_9.Text = "Main"
-TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_9.TextSize = 14.000
-
-NoCollapseB.Name = "NoCollapseB"
-NoCollapseB.Parent = MainFrame
-NoCollapseB.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
-NoCollapseB.ClipsDescendants = true
-NoCollapseB.Position = UDim2.new(0.0480395854, 0, 0.101469859, 0)
-NoCollapseB.Size = UDim2.new(0, 342, 0, 22)
-NoCollapseB.ZIndex = 3
-NoCollapseB.Font = Enum.Font.GothamBold
-NoCollapseB.Text = "No Mountain Collapse"
-NoCollapseB.TextColor3 = Color3.fromRGB(231, 231, 231)
-NoCollapseB.TextSize = 14.000
-NoCollapseB.TextWrapped = true
+NoclipB_2.Name = "NoclipB"
+NoclipB_2.Parent = UniversalFrame
+NoclipB_2.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
+NoclipB_2.ClipsDescendants = true
+NoclipB_2.Position = UDim2.new(0.0481529236, 0, 0.0568296611, 0)
+NoclipB_2.Size = UDim2.new(0, 128, 0, 22)
+NoclipB_2.ZIndex = 3
+NoclipB_2.Font = Enum.Font.GothamBold
+NoclipB_2.Text = "Noclip (E)"
+NoclipB_2.TextColor3 = Color3.fromRGB(231, 231, 231)
+NoclipB_2.TextSize = 14.000
+NoclipB_2.TextWrapped = true
 
 UICorner_17.CornerRadius = UDim.new(0, 2)
-UICorner_17.Parent = NoCollapseB
+UICorner_17.Parent = NoclipB_2
 
 Effect_8.Name = "Effect"
-Effect_8.Parent = NoCollapseB
+Effect_8.Parent = NoclipB_2
 Effect_8.AnchorPoint = Vector2.new(0.600000024, 0.600000024)
 Effect_8.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
 Effect_8.BackgroundTransparency = 1.000
@@ -697,24 +674,24 @@ Effect_8.ZIndex = 3
 Effect_8.Image = "rbxassetid://967145807"
 Effect_8.ImageColor3 = Color3.fromRGB(5, 56, 31)
 
-ResetB.Name = "ResetB"
-ResetB.Parent = MainFrame
-ResetB.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
-ResetB.ClipsDescendants = true
-ResetB.Position = UDim2.new(0.0481529236, 0, 0.0568297245, 0)
-ResetB.Size = UDim2.new(0, 342, 0, 22)
-ResetB.ZIndex = 3
-ResetB.Font = Enum.Font.GothamBold
-ResetB.Text = "Reset"
-ResetB.TextColor3 = Color3.fromRGB(231, 231, 231)
-ResetB.TextSize = 14.000
-ResetB.TextWrapped = true
+NoclipB_3.Name = "NoclipB"
+NoclipB_3.Parent = UniversalFrame
+NoclipB_3.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
+NoclipB_3.ClipsDescendants = true
+NoclipB_3.Position = UDim2.new(0.0481529236, 0, 0.0568296611, 0)
+NoclipB_3.Size = UDim2.new(0, 128, 0, 22)
+NoclipB_3.ZIndex = 3
+NoclipB_3.Font = Enum.Font.GothamBold
+NoclipB_3.Text = "Noclip (E)"
+NoclipB_3.TextColor3 = Color3.fromRGB(231, 231, 231)
+NoclipB_3.TextSize = 14.000
+NoclipB_3.TextWrapped = true
 
 UICorner_18.CornerRadius = UDim.new(0, 2)
-UICorner_18.Parent = ResetB
+UICorner_18.Parent = NoclipB_3
 
 Effect_9.Name = "Effect"
-Effect_9.Parent = ResetB
+Effect_9.Parent = NoclipB_3
 Effect_9.AnchorPoint = Vector2.new(0.600000024, 0.600000024)
 Effect_9.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
 Effect_9.BackgroundTransparency = 1.000
@@ -723,48 +700,24 @@ Effect_9.ZIndex = 3
 Effect_9.Image = "rbxassetid://967145807"
 Effect_9.ImageColor3 = Color3.fromRGB(5, 56, 31)
 
-Frame_5.Name = "Frame"
-Frame_5.Parent = MainFrame
-Frame_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_5.BackgroundTransparency = 1.000
-Frame_5.Position = UDim2.new(0.0211081803, 0, 0.216139704, 0)
-Frame_5.Size = UDim2.new(0, 365, 0, 134)
-Frame_5.ZIndex = 3
-Frame_5.Image = "rbxassetid://3570695787"
-Frame_5.ImageColor3 = Color3.fromRGB(29, 29, 29)
-Frame_5.ScaleType = Enum.ScaleType.Slice
-Frame_5.SliceCenter = Rect.new(100, 100, 100, 100)
-Frame_5.SliceScale = 0.050
-
-TextLabel_10.Parent = MainFrame
-TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_10.BackgroundTransparency = 1.000
-TextLabel_10.Position = UDim2.new(-0.0158311334, 0, 0.217579395, 0)
-TextLabel_10.Size = UDim2.new(0, 70, 0, 17)
-TextLabel_10.ZIndex = 3
-TextLabel_10.Font = Enum.Font.GothamBold
-TextLabel_10.Text = "Tools"
-TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_10.TextSize = 14.000
-
-BringWeaponsB.Name = "BringWeaponsB"
-BringWeaponsB.Parent = MainFrame
-BringWeaponsB.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
-BringWeaponsB.ClipsDescendants = true
-BringWeaponsB.Position = UDim2.new(0.0506781079, 0, 0.257089376, 0)
-BringWeaponsB.Size = UDim2.new(0, 342, 0, 22)
-BringWeaponsB.ZIndex = 3
-BringWeaponsB.Font = Enum.Font.GothamBold
-BringWeaponsB.Text = "Bring Weapons"
-BringWeaponsB.TextColor3 = Color3.fromRGB(231, 231, 231)
-BringWeaponsB.TextSize = 14.000
-BringWeaponsB.TextWrapped = true
+NoclipB_4.Name = "NoclipB"
+NoclipB_4.Parent = UniversalFrame
+NoclipB_4.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
+NoclipB_4.ClipsDescendants = true
+NoclipB_4.Position = UDim2.new(0.739445806, 0, 0.385473073, 0)
+NoclipB_4.Size = UDim2.new(0, 83, 0, 22)
+NoclipB_4.ZIndex = 3
+NoclipB_4.Font = Enum.Font.GothamBold
+NoclipB_4.Text = "Normal Speed"
+NoclipB_4.TextColor3 = Color3.fromRGB(231, 231, 231)
+NoclipB_4.TextSize = 10.000
+NoclipB_4.TextWrapped = true
 
 UICorner_19.CornerRadius = UDim.new(0, 2)
-UICorner_19.Parent = BringWeaponsB
+UICorner_19.Parent = NoclipB_4
 
 Effect_10.Name = "Effect"
-Effect_10.Parent = BringWeaponsB
+Effect_10.Parent = NoclipB_4
 Effect_10.AnchorPoint = Vector2.new(0.600000024, 0.600000024)
 Effect_10.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
 Effect_10.BackgroundTransparency = 1.000
@@ -773,24 +726,24 @@ Effect_10.ZIndex = 3
 Effect_10.Image = "rbxassetid://967145807"
 Effect_10.ImageColor3 = Color3.fromRGB(5, 56, 31)
 
-NoBatCooldownB.Name = "NoBatCooldownB"
-NoBatCooldownB.Parent = MainFrame
-NoBatCooldownB.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
-NoBatCooldownB.ClipsDescendants = true
-NoBatCooldownB.Position = UDim2.new(0.0507914461, 0, 0.306109279, 0)
-NoBatCooldownB.Size = UDim2.new(0, 342, 0, 22)
-NoBatCooldownB.ZIndex = 3
-NoBatCooldownB.Font = Enum.Font.GothamBold
-NoBatCooldownB.Text = "No Bat Cooldown"
-NoBatCooldownB.TextColor3 = Color3.fromRGB(231, 231, 231)
-NoBatCooldownB.TextSize = 14.000
-NoBatCooldownB.TextWrapped = true
+NoclipB_5.Name = "NoclipB"
+NoclipB_5.Parent = UniversalFrame
+NoclipB_5.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
+NoclipB_5.ClipsDescendants = true
+NoclipB_5.Position = UDim2.new(0.739445806, 0, 0.385473073, 0)
+NoclipB_5.Size = UDim2.new(0, 83, 0, 22)
+NoclipB_5.ZIndex = 4
+NoclipB_5.Font = Enum.Font.GothamBold
+NoclipB_5.Text = "Normal Speed"
+NoclipB_5.TextColor3 = Color3.fromRGB(231, 231, 231)
+NoclipB_5.TextSize = 10.000
+NoclipB_5.TextWrapped = true
 
 UICorner_20.CornerRadius = UDim.new(0, 2)
-UICorner_20.Parent = NoBatCooldownB
+UICorner_20.Parent = NoclipB_5
 
 Effect_11.Name = "Effect"
-Effect_11.Parent = NoBatCooldownB
+Effect_11.Parent = NoclipB_5
 Effect_11.AnchorPoint = Vector2.new(0.600000024, 0.600000024)
 Effect_11.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
 Effect_11.BackgroundTransparency = 1.000
@@ -799,24 +752,24 @@ Effect_11.ZIndex = 3
 Effect_11.Image = "rbxassetid://967145807"
 Effect_11.ImageColor3 = Color3.fromRGB(5, 56, 31)
 
-NoBottleCooldownB.Name = "NoBottleCooldownB"
-NoBottleCooldownB.Parent = MainFrame
-NoBottleCooldownB.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
-NoBottleCooldownB.ClipsDescendants = true
-NoBottleCooldownB.Position = UDim2.new(0.0481529236, 0, 0.357982397, 0)
-NoBottleCooldownB.Size = UDim2.new(0, 342, 0, 22)
-NoBottleCooldownB.ZIndex = 3
-NoBottleCooldownB.Font = Enum.Font.GothamBold
-NoBottleCooldownB.Text = "No Bottle Cooldown"
-NoBottleCooldownB.TextColor3 = Color3.fromRGB(231, 231, 231)
-NoBottleCooldownB.TextSize = 14.000
-NoBottleCooldownB.TextWrapped = true
+NoclipB_6.Name = "NoclipB"
+NoclipB_6.Parent = UniversalFrame
+NoclipB_6.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
+NoclipB_6.ClipsDescendants = true
+NoclipB_6.Position = UDim2.new(0.739445806, 0, 0.460401028, 0)
+NoclipB_6.Size = UDim2.new(0, 83, 0, 22)
+NoclipB_6.ZIndex = 4
+NoclipB_6.Font = Enum.Font.GothamBold
+NoclipB_6.Text = "Normal Jump"
+NoclipB_6.TextColor3 = Color3.fromRGB(231, 231, 231)
+NoclipB_6.TextSize = 10.000
+NoclipB_6.TextWrapped = true
 
 UICorner_21.CornerRadius = UDim.new(0, 2)
-UICorner_21.Parent = NoBottleCooldownB
+UICorner_21.Parent = NoclipB_6
 
 Effect_12.Name = "Effect"
-Effect_12.Parent = NoBottleCooldownB
+Effect_12.Parent = NoclipB_6
 Effect_12.AnchorPoint = Vector2.new(0.600000024, 0.600000024)
 Effect_12.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
 Effect_12.BackgroundTransparency = 1.000
@@ -825,48 +778,24 @@ Effect_12.ZIndex = 3
 Effect_12.Image = "rbxassetid://967145807"
 Effect_12.ImageColor3 = Color3.fromRGB(5, 56, 31)
 
-Frame_6.Name = "Frame"
-Frame_6.Parent = MainFrame
-Frame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_6.BackgroundTransparency = 1.000
-Frame_6.Position = UDim2.new(0.034300793, 0, 0.429397643, 0)
-Frame_6.Size = UDim2.new(0, 365, 0, 104)
-Frame_6.ZIndex = 3
-Frame_6.Image = "rbxassetid://3570695787"
-Frame_6.ImageColor3 = Color3.fromRGB(29, 29, 29)
-Frame_6.ScaleType = Enum.ScaleType.Slice
-Frame_6.SliceCenter = Rect.new(100, 100, 100, 100)
-Frame_6.SliceScale = 0.050
-
-TextLabel_11.Parent = MainFrame
-TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_11.BackgroundTransparency = 1.000
-TextLabel_11.Position = UDim2.new(9.31322575e-10, 0, 0.430835903, 0)
-TextLabel_11.Size = UDim2.new(0, 70, 0, 17)
-TextLabel_11.ZIndex = 3
-TextLabel_11.Font = Enum.Font.GothamBold
-TextLabel_11.Text = "Teams"
-TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_11.TextSize = 14.000
-
-TeamInfectedB.Name = "TeamInfectedB"
-TeamInfectedB.Parent = MainFrame
-TeamInfectedB.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
-TeamInfectedB.ClipsDescendants = true
-TeamInfectedB.Position = UDim2.new(0.0534299687, 0, 0.525129259, 0)
-TeamInfectedB.Size = UDim2.new(0, 342, 0, 22)
-TeamInfectedB.ZIndex = 3
-TeamInfectedB.Font = Enum.Font.GothamBold
-TeamInfectedB.Text = "Team Infected"
-TeamInfectedB.TextColor3 = Color3.fromRGB(231, 231, 231)
-TeamInfectedB.TextSize = 14.000
-TeamInfectedB.TextWrapped = true
+NoclipB_7.Name = "NoclipB"
+NoclipB_7.Parent = UniversalFrame
+NoclipB_7.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
+NoclipB_7.ClipsDescendants = true
+NoclipB_7.Position = UDim2.new(0.739445806, 0, 0.531006217, 0)
+NoclipB_7.Size = UDim2.new(0, 83, 0, 22)
+NoclipB_7.ZIndex = 4
+NoclipB_7.Font = Enum.Font.GothamBold
+NoclipB_7.Text = "Normal Gravity"
+NoclipB_7.TextColor3 = Color3.fromRGB(231, 231, 231)
+NoclipB_7.TextSize = 10.000
+NoclipB_7.TextWrapped = true
 
 UICorner_22.CornerRadius = UDim.new(0, 2)
-UICorner_22.Parent = TeamInfectedB
+UICorner_22.Parent = NoclipB_7
 
 Effect_13.Name = "Effect"
-Effect_13.Parent = TeamInfectedB
+Effect_13.Parent = NoclipB_7
 Effect_13.AnchorPoint = Vector2.new(0.600000024, 0.600000024)
 Effect_13.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
 Effect_13.BackgroundTransparency = 1.000
@@ -875,24 +804,50 @@ Effect_13.ZIndex = 3
 Effect_13.Image = "rbxassetid://967145807"
 Effect_13.ImageColor3 = Color3.fromRGB(5, 56, 31)
 
-TeamNeaturalB.Name = "TeamNeaturalB"
-TeamNeaturalB.Parent = MainFrame
-TeamNeaturalB.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
-TeamNeaturalB.ClipsDescendants = true
-TeamNeaturalB.Position = UDim2.new(0.0534299687, 0, 0.477579057, 0)
-TeamNeaturalB.Size = UDim2.new(0, 342, 0, 22)
-TeamNeaturalB.ZIndex = 3
-TeamNeaturalB.Font = Enum.Font.GothamBold
-TeamNeaturalB.Text = "Team Neutral"
-TeamNeaturalB.TextColor3 = Color3.fromRGB(231, 231, 231)
-TeamNeaturalB.TextSize = 14.000
-TeamNeaturalB.TextWrapped = true
+Logo.Name = "Logo"
+Logo.Parent = CrystalHubV2Main
+Logo.BackgroundColor3 = Color3.fromRGB(57, 255, 80)
+Logo.Position = UDim2.new(0.0137568954, 0, 0.0364468247, 0)
+Logo.Size = UDim2.new(0, 33, 0, 33)
+Logo.ZIndex = 4
 
-UICorner_23.CornerRadius = UDim.new(0, 2)
-UICorner_23.Parent = TeamNeaturalB
+UICorner_23.CornerRadius = UDim.new(2, 5)
+UICorner_23.Parent = Logo
+
+ImageLabel.Parent = Logo
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.147280604, 0, 0.147280142, 0)
+ImageLabel.Size = UDim2.new(0, 22, 0, 22)
+ImageLabel.ZIndex = 4
+ImageLabel.Image = "http://www.roblox.com/asset/?id=6358388570"
+ImageLabel.ImageColor3 = Color3.fromRGB(195, 195, 195)
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = CrystalHubV2Main
+MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainFrame.BackgroundTransparency = 1.000
+MainFrame.Position = UDim2.new(0.300738007, 0, 0, 0)
+MainFrame.Size = UDim2.new(0, 379, 0, 347)
+
+BringWeaponsB.Name = "BringWeaponsB"
+BringWeaponsB.Parent = MainFrame
+BringWeaponsB.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
+BringWeaponsB.ClipsDescendants = true
+BringWeaponsB.Position = UDim2.new(0.578382611, 0, 0.111556239, 0)
+BringWeaponsB.Size = UDim2.new(0, 128, 0, 22)
+BringWeaponsB.ZIndex = 4
+BringWeaponsB.Font = Enum.Font.GothamBold
+BringWeaponsB.Text = "Bring Weapons"
+BringWeaponsB.TextColor3 = Color3.fromRGB(231, 231, 231)
+BringWeaponsB.TextSize = 14.000
+BringWeaponsB.TextWrapped = true
+
+UICorner_24.CornerRadius = UDim.new(0, 2)
+UICorner_24.Parent = BringWeaponsB
 
 Effect_14.Name = "Effect"
-Effect_14.Parent = TeamNeaturalB
+Effect_14.Parent = BringWeaponsB
 Effect_14.AnchorPoint = Vector2.new(0.600000024, 0.600000024)
 Effect_14.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
 Effect_14.BackgroundTransparency = 1.000
@@ -905,17 +860,17 @@ FinalBaseB.Name = "FinalBaseB"
 FinalBaseB.Parent = MainFrame
 FinalBaseB.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
 FinalBaseB.ClipsDescendants = true
-FinalBaseB.Position = UDim2.new(0.0506781079, 0, 0.146138445, 0)
-FinalBaseB.Size = UDim2.new(0, 342, 0, 22)
-FinalBaseB.ZIndex = 3
+FinalBaseB.Position = UDim2.new(0.0665093139, 0, 0.110490344, 0)
+FinalBaseB.Size = UDim2.new(0, 128, 0, 22)
+FinalBaseB.ZIndex = 4
 FinalBaseB.Font = Enum.Font.GothamBold
 FinalBaseB.Text = "Delete Final Base Door"
 FinalBaseB.TextColor3 = Color3.fromRGB(231, 231, 231)
-FinalBaseB.TextSize = 14.000
+FinalBaseB.TextSize = 11.000
 FinalBaseB.TextWrapped = true
 
-UICorner_24.CornerRadius = UDim.new(0, 2)
-UICorner_24.Parent = FinalBaseB
+UICorner_25.CornerRadius = UDim.new(0, 2)
+UICorner_25.Parent = FinalBaseB
 
 Effect_15.Name = "Effect"
 Effect_15.Parent = FinalBaseB
@@ -927,28 +882,211 @@ Effect_15.ZIndex = 3
 Effect_15.Image = "rbxassetid://967145807"
 Effect_15.ImageColor3 = Color3.fromRGB(5, 56, 31)
 
-Logo.Name = "Logo"
-Logo.Parent = CrystalHubV2Main
-Logo.BackgroundColor3 = Color3.fromRGB(57, 255, 80)
-Logo.Position = UDim2.new(0.0137568954, 0, 0.0364468247, 0)
-Logo.Size = UDim2.new(0, 33, 0, 33)
-Logo.ZIndex = 4
+NoBatCooldownB.Name = "NoBatCooldownB"
+NoBatCooldownB.Parent = MainFrame
+NoBatCooldownB.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
+NoBatCooldownB.ClipsDescendants = true
+NoBatCooldownB.Position = UDim2.new(0.57849592, 0, 0.20524475, 0)
+NoBatCooldownB.Size = UDim2.new(0, 128, 0, 22)
+NoBatCooldownB.ZIndex = 4
+NoBatCooldownB.Font = Enum.Font.GothamBold
+NoBatCooldownB.Text = "No Bat Cooldown"
+NoBatCooldownB.TextColor3 = Color3.fromRGB(231, 231, 231)
+NoBatCooldownB.TextSize = 14.000
+NoBatCooldownB.TextWrapped = true
 
-UICorner_25.CornerRadius = UDim.new(2, 5)
-UICorner_25.Parent = Logo
+UICorner_26.CornerRadius = UDim.new(0, 2)
+UICorner_26.Parent = NoBatCooldownB
 
-ImageLabel.Parent = Logo
-ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel.BackgroundTransparency = 1.000
-ImageLabel.Position = UDim2.new(0.147280604, 0, 0.147280142, 0)
-ImageLabel.Size = UDim2.new(0, 22, 0, 22)
-ImageLabel.ZIndex = 4
-ImageLabel.Image = "http://www.roblox.com/asset/?id=6358388570"
-ImageLabel.ImageColor3 = Color3.fromRGB(195, 195, 195)
+Effect_16.Name = "Effect"
+Effect_16.Parent = NoBatCooldownB
+Effect_16.AnchorPoint = Vector2.new(0.600000024, 0.600000024)
+Effect_16.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Effect_16.BackgroundTransparency = 1.000
+Effect_16.SizeConstraint = Enum.SizeConstraint.RelativeXX
+Effect_16.ZIndex = 3
+Effect_16.Image = "rbxassetid://967145807"
+Effect_16.ImageColor3 = Color3.fromRGB(5, 56, 31)
+
+NoBottleCooldownB.Name = "NoBottleCooldownB"
+NoBottleCooldownB.Parent = MainFrame
+NoBottleCooldownB.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
+NoBottleCooldownB.ClipsDescendants = true
+NoBottleCooldownB.Position = UDim2.new(0.57849592, 0, 0.294581801, 0)
+NoBottleCooldownB.Size = UDim2.new(0, 128, 0, 22)
+NoBottleCooldownB.ZIndex = 4
+NoBottleCooldownB.Font = Enum.Font.GothamBold
+NoBottleCooldownB.Text = "No Bottle Cooldown"
+NoBottleCooldownB.TextColor3 = Color3.fromRGB(231, 231, 231)
+NoBottleCooldownB.TextSize = 12.000
+NoBottleCooldownB.TextWrapped = true
+
+UICorner_27.CornerRadius = UDim.new(0, 2)
+UICorner_27.Parent = NoBottleCooldownB
+
+Effect_17.Name = "Effect"
+Effect_17.Parent = NoBottleCooldownB
+Effect_17.AnchorPoint = Vector2.new(0.600000024, 0.600000024)
+Effect_17.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Effect_17.BackgroundTransparency = 1.000
+Effect_17.SizeConstraint = Enum.SizeConstraint.RelativeXX
+Effect_17.ZIndex = 3
+Effect_17.Image = "rbxassetid://967145807"
+Effect_17.ImageColor3 = Color3.fromRGB(5, 56, 31)
+
+NoCollapseB.Name = "NoCollapseB"
+NoCollapseB.Parent = MainFrame
+NoCollapseB.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
+NoCollapseB.ClipsDescendants = true
+NoCollapseB.Position = UDim2.new(0.0665092468, 0, 0.200893492, 0)
+NoCollapseB.Size = UDim2.new(0, 128, 0, 22)
+NoCollapseB.ZIndex = 4
+NoCollapseB.Font = Enum.Font.GothamBold
+NoCollapseB.Text = "No Mountain Collapse"
+NoCollapseB.TextColor3 = Color3.fromRGB(231, 231, 231)
+NoCollapseB.TextSize = 10.000
+NoCollapseB.TextWrapped = true
+
+UICorner_28.CornerRadius = UDim.new(0, 2)
+UICorner_28.Parent = NoCollapseB
+
+Effect_18.Name = "Effect"
+Effect_18.Parent = NoCollapseB
+Effect_18.AnchorPoint = Vector2.new(0.600000024, 0.600000024)
+Effect_18.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Effect_18.BackgroundTransparency = 1.000
+Effect_18.SizeConstraint = Enum.SizeConstraint.RelativeXX
+Effect_18.ZIndex = 3
+Effect_18.Image = "rbxassetid://967145807"
+Effect_18.ImageColor3 = Color3.fromRGB(5, 56, 31)
+
+ResetB.Name = "ResetB"
+ResetB.Parent = MainFrame
+ResetB.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
+ResetB.ClipsDescendants = true
+ResetB.Position = UDim2.new(0.0670000017, 0, 0.294409215, 0)
+ResetB.Size = UDim2.new(0, 128, 0, 22)
+ResetB.ZIndex = 4
+ResetB.Font = Enum.Font.GothamBold
+ResetB.Text = "Reset"
+ResetB.TextColor3 = Color3.fromRGB(231, 231, 231)
+ResetB.TextSize = 14.000
+ResetB.TextWrapped = true
+
+UICorner_29.CornerRadius = UDim.new(0, 2)
+UICorner_29.Parent = ResetB
+
+Effect_19.Name = "Effect"
+Effect_19.Parent = ResetB
+Effect_19.AnchorPoint = Vector2.new(0.600000024, 0.600000024)
+Effect_19.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Effect_19.BackgroundTransparency = 1.000
+Effect_19.SizeConstraint = Enum.SizeConstraint.RelativeXX
+Effect_19.ZIndex = 3
+Effect_19.Image = "rbxassetid://967145807"
+Effect_19.ImageColor3 = Color3.fromRGB(5, 56, 31)
+
+TeamInfectedB.Name = "TeamInfectedB"
+TeamInfectedB.Parent = MainFrame
+TeamInfectedB.BackgroundColor3 = Color3.fromRGB(18, 208, 119)
+TeamInfectedB.ClipsDescendants = true
+TeamInfectedB.Position = UDim2.new(0.0639840513, 0, 0.561152279, 0)
+TeamInfectedB.Size = UDim2.new(0, 128, 0, 22)
+TeamInfectedB.ZIndex = 4
+TeamInfectedB.Font = Enum.Font.GothamBold
+TeamInfectedB.Text = "Team Infected"
+TeamInfectedB.TextColor3 = Color3.fromRGB(231, 231, 231)
+TeamInfectedB.TextSize = 14.000
+TeamInfectedB.TextWrapped = true
+
+UICorner_30.CornerRadius = UDim.new(0, 2)
+UICorner_30.Parent = TeamInfectedB
+
+Effect_20.Name = "Effect"
+Effect_20.Parent = TeamInfectedB
+Effect_20.AnchorPoint = Vector2.new(0.600000024, 0.600000024)
+Effect_20.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Effect_20.BackgroundTransparency = 1.000
+Effect_20.SizeConstraint = Enum.SizeConstraint.RelativeXX
+Effect_20.ZIndex = 3
+Effect_20.Image = "rbxassetid://967145807"
+Effect_20.ImageColor3 = Color3.fromRGB(5, 56, 31)
+
+Frame_4.Name = "Frame"
+Frame_4.Parent = MainFrame
+Frame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_4.BackgroundTransparency = 1.000
+Frame_4.Position = UDim2.new(0.034300793, 0, 0.0259365998, 0)
+Frame_4.Size = UDim2.new(0, 153, 0, 126)
+Frame_4.ZIndex = 3
+Frame_4.Image = "rbxassetid://3570695787"
+Frame_4.ImageColor3 = Color3.fromRGB(29, 29, 29)
+Frame_4.ScaleType = Enum.ScaleType.Slice
+Frame_4.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame_4.SliceScale = 0.050
+
+Frame_5.Name = "Frame"
+Frame_5.Parent = MainFrame
+Frame_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_5.BackgroundTransparency = 1.000
+Frame_5.Position = UDim2.new(0.034300793, 0, 0.456778049, 0)
+Frame_5.Size = UDim2.new(0, 153, 0, 70)
+Frame_5.ZIndex = 3
+Frame_5.Image = "rbxassetid://3570695787"
+Frame_5.ImageColor3 = Color3.fromRGB(29, 29, 29)
+Frame_5.ScaleType = Enum.ScaleType.Slice
+Frame_5.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame_5.SliceScale = 0.050
+
+Frame_6.Name = "Frame"
+Frame_6.Parent = MainFrame
+Frame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_6.BackgroundTransparency = 1.000
+Frame_6.Position = UDim2.new(0.546174169, 0, 0.0259365998, 0)
+Frame_6.Size = UDim2.new(0, 153, 0, 126)
+Frame_6.ZIndex = 3
+Frame_6.Image = "rbxassetid://3570695787"
+Frame_6.ImageColor3 = Color3.fromRGB(29, 29, 29)
+Frame_6.ScaleType = Enum.ScaleType.Slice
+Frame_6.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame_6.SliceScale = 0.050
+
+TextLabel_9.Parent = MainFrame
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0.0343007892, 0, 0.0389049426, 0)
+TextLabel_9.Size = UDim2.new(0, 34, 0, 17)
+TextLabel_9.ZIndex = 3
+TextLabel_9.Font = Enum.Font.GothamBold
+TextLabel_9.Text = "Main"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 14.000
+
+TextLabel_10.Parent = MainFrame
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0.517150402, 0, 0.0360231996, 0)
+TextLabel_10.Size = UDim2.new(0, 70, 0, 17)
+TextLabel_10.ZIndex = 3
+TextLabel_10.Font = Enum.Font.GothamBold
+TextLabel_10.Text = "Tools"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 14.000
+
+TextLabel_11.Parent = MainFrame
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0.0323218927, 0, 0.471182257, 0)
+TextLabel_11.Size = UDim2.new(0, 38, 0, 17)
+TextLabel_11.ZIndex = 3
+TextLabel_11.Font = Enum.Font.GothamBold
+TextLabel_11.Text = "Team"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 14.000
 
 -- Scripts:
 
-local function EYIIUT_fake_script() -- CrystalHubV2Main.Dragify 
+local function TWLAIH_fake_script() -- CrystalHubV2Main.Dragify 
 	local script = Instance.new('LocalScript', CrystalHubV2Main)
 
 	local UIS = game:GetService("UserInputService")
@@ -989,8 +1127,8 @@ local function EYIIUT_fake_script() -- CrystalHubV2Main.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(EYIIUT_fake_script)()
-local function KMZNX_fake_script() -- CrystalHubV2Main.Open/Close 
+coroutine.wrap(TWLAIH_fake_script)()
+local function LJKVAS_fake_script() -- CrystalHubV2Main.Open/Close 
 	local script = Instance.new('LocalScript', CrystalHubV2Main)
 
 	p = game.Players.LocalPlayer
@@ -1006,16 +1144,16 @@ local function KMZNX_fake_script() -- CrystalHubV2Main.Open/Close
 		end
 	end)
 end
-coroutine.wrap(KMZNX_fake_script)()
-local function TKUZBM_fake_script() -- CrystalHubV2Main.ExecuteEffect 
+coroutine.wrap(LJKVAS_fake_script)()
+local function YHPBN_fake_script() -- CrystalHubV2Main.ExecuteEffect 
 	local script = Instance.new('LocalScript', CrystalHubV2Main)
 
-	wait(1)
+	wait(0.5)
 	
-	script.Parent:TweenPosition(UDim2.new(0.274, 0,0.171, 0), "Out", "Bounce", 2)
+	script.Parent:TweenPosition(UDim2.new(0.274, 0,0.171, 0), "Out", "Linear", 1)
 end
-coroutine.wrap(TKUZBM_fake_script)()
-local function BCKEE_fake_script() -- DiscordB.LocalScript 
+coroutine.wrap(YHPBN_fake_script)()
+local function DVRFQ_fake_script() -- DiscordB.LocalScript 
 	local script = Instance.new('LocalScript', DiscordB)
 
 	local Mouse = game.Players.LocalPlayer:GetMouse()
@@ -1036,8 +1174,8 @@ local function BCKEE_fake_script() -- DiscordB.LocalScript
 		G:Destroy()
 	end)
 end
-coroutine.wrap(BCKEE_fake_script)()
-local function IBXY_fake_script() -- DiscordB.LocalScript 
+coroutine.wrap(DVRFQ_fake_script)()
+local function XWGXXO_fake_script() -- DiscordB.LocalScript 
 	local script = Instance.new('LocalScript', DiscordB)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1050,8 +1188,8 @@ local function IBXY_fake_script() -- DiscordB.LocalScript
 		--script
 	end)
 end
-coroutine.wrap(IBXY_fake_script)()
-local function ZIETL_fake_script() -- DiscordCopyB.LocalScript 
+coroutine.wrap(XWGXXO_fake_script)()
+local function EYSYXK_fake_script() -- DiscordCopyB.LocalScript 
 	local script = Instance.new('LocalScript', DiscordCopyB)
 
 	local Mouse = game.Players.LocalPlayer:GetMouse()
@@ -1072,8 +1210,8 @@ local function ZIETL_fake_script() -- DiscordCopyB.LocalScript
 		G:Destroy()
 	end)
 end
-coroutine.wrap(ZIETL_fake_script)()
-local function CCNJN_fake_script() -- DiscordCopyB.LocalScript 
+coroutine.wrap(EYSYXK_fake_script)()
+local function IXAH_fake_script() -- DiscordCopyB.LocalScript 
 	local script = Instance.new('LocalScript', DiscordCopyB)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1086,14 +1224,14 @@ local function CCNJN_fake_script() -- DiscordCopyB.LocalScript
 	   --test
 	end)
 end
-coroutine.wrap(CCNJN_fake_script)()
-local function HPXGU_fake_script() -- TextLabel_4.LocalScript 
+coroutine.wrap(IXAH_fake_script)()
+local function YRGGGZC_fake_script() -- TextLabel_4.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_4)
 
 	script.Parent.Text = game.Players.LocalPlayer.Character.Name
 end
-coroutine.wrap(HPXGU_fake_script)()
-local function ISGA_fake_script() -- UniversalB.Hover 
+coroutine.wrap(YRGGGZC_fake_script)()
+local function OCOPW_fake_script() -- UniversalB.Hover 
 	local script = Instance.new('LocalScript', UniversalB)
 
 	local Mouse = game.Players.LocalPlayer:GetMouse()
@@ -1114,8 +1252,8 @@ local function ISGA_fake_script() -- UniversalB.Hover
 		G:Destroy()
 	end)
 end
-coroutine.wrap(ISGA_fake_script)()
-local function BGEV_fake_script() -- UniversalB.ButtonEffect 
+coroutine.wrap(OCOPW_fake_script)()
+local function LOVEZ_fake_script() -- UniversalB.ButtonEffect 
 	local script = Instance.new('LocalScript', UniversalB)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1128,8 +1266,8 @@ local function BGEV_fake_script() -- UniversalB.ButtonEffect
 		--script
 	end)
 end
-coroutine.wrap(BGEV_fake_script)()
-local function FAMFXS_fake_script() -- CrystalHubV2Main.AntiCheat 
+coroutine.wrap(LOVEZ_fake_script)()
+local function UQKAKR_fake_script() -- CrystalHubV2Main.AntiCheat 
 	local script = Instance.new('LocalScript', CrystalHubV2Main)
 
 	wait(0.3)
@@ -1137,8 +1275,8 @@ local function FAMFXS_fake_script() -- CrystalHubV2Main.AntiCheat
 	game:GetService("Workspace").Map.AntiHack:Destroy()
 	game.Players.LocalPlayer.AntiFly:Destroy()
 end
-coroutine.wrap(FAMFXS_fake_script)()
-local function QKDPKMO_fake_script() -- CrystalHubV2Main.AntiCheatYedek 
+coroutine.wrap(UQKAKR_fake_script)()
+local function YLSI_fake_script() -- CrystalHubV2Main.AntiCheatYedek 
 	local script = Instance.new('LocalScript', CrystalHubV2Main)
 
 	wait(0.2)
@@ -1146,8 +1284,8 @@ local function QKDPKMO_fake_script() -- CrystalHubV2Main.AntiCheatYedek
 	workspace.Map.AntiHack:Destroy()
 	game.Players.LocalPlayer.Character.AntiFly:Destroy()
 end
-coroutine.wrap(QKDPKMO_fake_script)()
-local function LUNU_fake_script() -- MainB.Hover 
+coroutine.wrap(YLSI_fake_script)()
+local function GYILU_fake_script() -- MainB.Hover 
 	local script = Instance.new('LocalScript', MainB)
 
 	local Mouse = game.Players.LocalPlayer:GetMouse()
@@ -1168,8 +1306,8 @@ local function LUNU_fake_script() -- MainB.Hover
 		G:Destroy()
 	end)
 end
-coroutine.wrap(LUNU_fake_script)()
-local function XJVXUYC_fake_script() -- MainB.ButtonEffect 
+coroutine.wrap(GYILU_fake_script)()
+local function JMQZFPS_fake_script() -- MainB.ButtonEffect 
 	local script = Instance.new('LocalScript', MainB)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1182,8 +1320,8 @@ local function XJVXUYC_fake_script() -- MainB.ButtonEffect
 		--script
 	end)
 end
-coroutine.wrap(XJVXUYC_fake_script)()
-local function BFEY_fake_script() -- NoclipB.Hover 
+coroutine.wrap(JMQZFPS_fake_script)()
+local function QEZL_fake_script() -- NoclipB.Hover 
 	local script = Instance.new('LocalScript', NoclipB)
 
 	local Mouse = game.Players.LocalPlayer:GetMouse()
@@ -1204,8 +1342,8 @@ local function BFEY_fake_script() -- NoclipB.Hover
 		G:Destroy()
 	end)
 end
-coroutine.wrap(BFEY_fake_script)()
-local function LBAQGOD_fake_script() -- NoclipB.ButtonEffect 
+coroutine.wrap(QEZL_fake_script)()
+local function HOFPAW_fake_script() -- NoclipB.ButtonEffect 
 	local script = Instance.new('LocalScript', NoclipB)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1234,8 +1372,8 @@ local function LBAQGOD_fake_script() -- NoclipB.ButtonEffect
 		end)
 	end)
 end
-coroutine.wrap(LBAQGOD_fake_script)()
-local function SEUPF_fake_script() -- FlyB.Hover 
+coroutine.wrap(HOFPAW_fake_script)()
+local function OCOFUFT_fake_script() -- FlyB.Hover 
 	local script = Instance.new('LocalScript', FlyB)
 
 	local Mouse = game.Players.LocalPlayer:GetMouse()
@@ -1256,8 +1394,8 @@ local function SEUPF_fake_script() -- FlyB.Hover
 		G:Destroy()
 	end)
 end
-coroutine.wrap(SEUPF_fake_script)()
-local function TAECZ_fake_script() -- FlyB.ButtonEffect 
+coroutine.wrap(OCOFUFT_fake_script)()
+local function FPNIMN_fake_script() -- FlyB.ButtonEffect 
 	local script = Instance.new('LocalScript', FlyB)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1349,8 +1487,8 @@ local function TAECZ_fake_script() -- FlyB.ButtonEffect
 		Fly()
 	end)
 end
-coroutine.wrap(TAECZ_fake_script)()
-local function LPQNU_fake_script() -- BtoolsB.Hover 
+coroutine.wrap(FPNIMN_fake_script)()
+local function GHZNEXL_fake_script() -- BtoolsB.Hover 
 	local script = Instance.new('LocalScript', BtoolsB)
 
 	local Mouse = game.Players.LocalPlayer:GetMouse()
@@ -1371,8 +1509,8 @@ local function LPQNU_fake_script() -- BtoolsB.Hover
 		G:Destroy()
 	end)
 end
-coroutine.wrap(LPQNU_fake_script)()
-local function MMNPAX_fake_script() -- BtoolsB.ButtonEffect 
+coroutine.wrap(GHZNEXL_fake_script)()
+local function BVPHXQ_fake_script() -- BtoolsB.ButtonEffect 
 	local script = Instance.new('LocalScript', BtoolsB)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1390,8 +1528,8 @@ local function MMNPAX_fake_script() -- BtoolsB.ButtonEffect
 		c.BinType = 4
 	end)
 end
-coroutine.wrap(MMNPAX_fake_script)()
-local function ATCPBVG_fake_script() -- InfiniteJuB.Hover 
+coroutine.wrap(BVPHXQ_fake_script)()
+local function GEEIZDT_fake_script() -- InfiniteJuB.Hover 
 	local script = Instance.new('LocalScript', InfiniteJuB)
 
 	local Mouse = game.Players.LocalPlayer:GetMouse()
@@ -1412,8 +1550,8 @@ local function ATCPBVG_fake_script() -- InfiniteJuB.Hover
 		G:Destroy()
 	end)
 end
-coroutine.wrap(ATCPBVG_fake_script)()
-local function EADSDGD_fake_script() -- InfiniteJuB.ButtonEffect 
+coroutine.wrap(GEEIZDT_fake_script)()
+local function TBBSEQB_fake_script() -- InfiniteJuB.ButtonEffect 
 	local script = Instance.new('LocalScript', InfiniteJuB)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1428,8 +1566,8 @@ local function EADSDGD_fake_script() -- InfiniteJuB.ButtonEffect
 		end)
 	end)
 end
-coroutine.wrap(EADSDGD_fake_script)()
-local function FXZRUUW_fake_script() -- AdminB.Hover 
+coroutine.wrap(TBBSEQB_fake_script)()
+local function BOKHYTN_fake_script() -- AdminB.Hover 
 	local script = Instance.new('LocalScript', AdminB)
 
 	local Mouse = game.Players.LocalPlayer:GetMouse()
@@ -1450,8 +1588,8 @@ local function FXZRUUW_fake_script() -- AdminB.Hover
 		G:Destroy()
 	end)
 end
-coroutine.wrap(FXZRUUW_fake_script)()
-local function KDDAQ_fake_script() -- AdminB.ButtonEffect 
+coroutine.wrap(BOKHYTN_fake_script)()
+local function NBKRJH_fake_script() -- AdminB.ButtonEffect 
 	local script = Instance.new('LocalScript', AdminB)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1464,8 +1602,8 @@ local function KDDAQ_fake_script() -- AdminB.ButtonEffect
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(KDDAQ_fake_script)()
-local function DEZPMRF_fake_script() -- GravityFill.LocalScript 
+coroutine.wrap(NBKRJH_fake_script)()
+local function PBUFG_fake_script() -- GravityFill.LocalScript 
 	local script = Instance.new('LocalScript', GravityFill)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1490,8 +1628,8 @@ local function DEZPMRF_fake_script() -- GravityFill.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DEZPMRF_fake_script)()
-local function LJGIMOF_fake_script() -- JumppowerFill.LocalScript 
+coroutine.wrap(PBUFG_fake_script)()
+local function HBAUMGX_fake_script() -- JumppowerFill.LocalScript 
 	local script = Instance.new('LocalScript', JumppowerFill)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1516,8 +1654,8 @@ local function LJGIMOF_fake_script() -- JumppowerFill.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LJGIMOF_fake_script)()
-local function QPZUCL_fake_script() -- WalkspeedFill.LocalScript 
+coroutine.wrap(HBAUMGX_fake_script)()
+local function ZDCN_fake_script() -- WalkspeedFill.LocalScript 
 	local script = Instance.new('LocalScript', WalkspeedFill)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1542,9 +1680,9 @@ local function QPZUCL_fake_script() -- WalkspeedFill.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QPZUCL_fake_script)()
-local function WMUG_fake_script() -- NoCollapseB.Hover 
-	local script = Instance.new('LocalScript', NoCollapseB)
+coroutine.wrap(ZDCN_fake_script)()
+local function KLWLLC_fake_script() -- NoclipB_2.Hover 
+	local script = Instance.new('LocalScript', NoclipB_2)
 
 	local Mouse = game.Players.LocalPlayer:GetMouse()
 	local button = script.Parent
@@ -1564,9 +1702,9 @@ local function WMUG_fake_script() -- NoCollapseB.Hover
 		G:Destroy()
 	end)
 end
-coroutine.wrap(WMUG_fake_script)()
-local function WNQTS_fake_script() -- NoCollapseB.ButtonEffect 
-	local script = Instance.new('LocalScript', NoCollapseB)
+coroutine.wrap(KLWLLC_fake_script)()
+local function QSACKK_fake_script() -- NoclipB_2.ButtonEffect 
+	local script = Instance.new('LocalScript', NoclipB_2)
 
 	script.Parent.MouseEnter:Connect(function()
 		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(10, 116, 65)}):Play()
@@ -1575,12 +1713,28 @@ local function WNQTS_fake_script() -- NoCollapseB.ButtonEffect
 		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(18, 208, 119)}):Play()
 	end)
 	script.Parent.MouseButton1Click:Connect(function()
-		Workspace.Map.System.Weight:Destroy()
+		noclip = false
+		game:GetService('RunService').Stepped:Connect(function()
+			if noclip then
+				game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+	
+			end
+		end)
+	
+		local p = game.Players.LocalPlayer
+		local mo = p:GetMouse()
+	
+		mo.KeyDown:Connect(function(k)
+			if k == 'e' then
+				noclip = not noclip
+				p.Character.Humanoid:ChangeState(11)
+			end
+		end)
 	end)
 end
-coroutine.wrap(WNQTS_fake_script)()
-local function EGTJDIY_fake_script() -- ResetB.Hover 
-	local script = Instance.new('LocalScript', ResetB)
+coroutine.wrap(QSACKK_fake_script)()
+local function YLDOW_fake_script() -- NoclipB_3.Hover 
+	local script = Instance.new('LocalScript', NoclipB_3)
 
 	local Mouse = game.Players.LocalPlayer:GetMouse()
 	local button = script.Parent
@@ -1600,9 +1754,9 @@ local function EGTJDIY_fake_script() -- ResetB.Hover
 		G:Destroy()
 	end)
 end
-coroutine.wrap(EGTJDIY_fake_script)()
-local function NFVBS_fake_script() -- ResetB.ButtonEffect 
-	local script = Instance.new('LocalScript', ResetB)
+coroutine.wrap(YLDOW_fake_script)()
+local function ZHWLNX_fake_script() -- NoclipB_3.ButtonEffect 
+	local script = Instance.new('LocalScript', NoclipB_3)
 
 	script.Parent.MouseEnter:Connect(function()
 		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(10, 116, 65)}):Play()
@@ -1611,12 +1765,28 @@ local function NFVBS_fake_script() -- ResetB.ButtonEffect
 		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(18, 208, 119)}):Play()
 	end)
 	script.Parent.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.Character.Head:Destroy()
+		noclip = false
+		game:GetService('RunService').Stepped:Connect(function()
+			if noclip then
+				game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+	
+			end
+		end)
+	
+		local p = game.Players.LocalPlayer
+		local mo = p:GetMouse()
+	
+		mo.KeyDown:Connect(function(k)
+			if k == 'e' then
+				noclip = not noclip
+				p.Character.Humanoid:ChangeState(11)
+			end
+		end)
 	end)
 end
-coroutine.wrap(NFVBS_fake_script)()
-local function GWIXV_fake_script() -- BringWeaponsB.Hover 
-	local script = Instance.new('LocalScript', BringWeaponsB)
+coroutine.wrap(ZHWLNX_fake_script)()
+local function PSKKZDR_fake_script() -- NoclipB_4.Hover 
+	local script = Instance.new('LocalScript', NoclipB_4)
 
 	local Mouse = game.Players.LocalPlayer:GetMouse()
 	local button = script.Parent
@@ -1636,9 +1806,9 @@ local function GWIXV_fake_script() -- BringWeaponsB.Hover
 		G:Destroy()
 	end)
 end
-coroutine.wrap(GWIXV_fake_script)()
-local function EWZOWFY_fake_script() -- BringWeaponsB.ButtonEffect 
-	local script = Instance.new('LocalScript', BringWeaponsB)
+coroutine.wrap(PSKKZDR_fake_script)()
+local function DLHTPIT_fake_script() -- NoclipB_4.ButtonEffect 
+	local script = Instance.new('LocalScript', NoclipB_4)
 
 	script.Parent.MouseEnter:Connect(function()
 		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(10, 116, 65)}):Play()
@@ -1647,13 +1817,28 @@ local function EWZOWFY_fake_script() -- BringWeaponsB.ButtonEffect
 		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(18, 208, 119)}):Play()
 	end)
 	script.Parent.MouseButton1Click:Connect(function()
-		workspace.Map.HumanBase.Vendor.BottleCollection.Bottle.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
-		workspace.Map.HumanBase.Vendor.BatCollection.Bat.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+		noclip = false
+		game:GetService('RunService').Stepped:Connect(function()
+			if noclip then
+				game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+	
+			end
+		end)
+	
+		local p = game.Players.LocalPlayer
+		local mo = p:GetMouse()
+	
+		mo.KeyDown:Connect(function(k)
+			if k == 'e' then
+				noclip = not noclip
+				p.Character.Humanoid:ChangeState(11)
+			end
+		end)
 	end)
 end
-coroutine.wrap(EWZOWFY_fake_script)()
-local function FZUO_fake_script() -- NoBatCooldownB.Hover 
-	local script = Instance.new('LocalScript', NoBatCooldownB)
+coroutine.wrap(DLHTPIT_fake_script)()
+local function ZEBQK_fake_script() -- NoclipB_5.Hover 
+	local script = Instance.new('LocalScript', NoclipB_5)
 
 	local Mouse = game.Players.LocalPlayer:GetMouse()
 	local button = script.Parent
@@ -1673,9 +1858,9 @@ local function FZUO_fake_script() -- NoBatCooldownB.Hover
 		G:Destroy()
 	end)
 end
-coroutine.wrap(FZUO_fake_script)()
-local function RDKI_fake_script() -- NoBatCooldownB.ButtonEffect 
-	local script = Instance.new('LocalScript', NoBatCooldownB)
+coroutine.wrap(ZEBQK_fake_script)()
+local function VNSAUZH_fake_script() -- NoclipB_5.ButtonEffect 
+	local script = Instance.new('LocalScript', NoclipB_5)
 
 	script.Parent.MouseEnter:Connect(function()
 		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(10, 116, 65)}):Play()
@@ -1684,13 +1869,12 @@ local function RDKI_fake_script() -- NoBatCooldownB.ButtonEffect
 		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(18, 208, 119)}):Play()
 	end)
 	script.Parent.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.Character.Bat.MaxUses:Destroy()
-		game.Players.LocalPlayer.Character.Bat.Cooldown.Value = 0.01
+	    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
 	end)
 end
-coroutine.wrap(RDKI_fake_script)()
-local function VZRFJHZ_fake_script() -- NoBottleCooldownB.Hover 
-	local script = Instance.new('LocalScript', NoBottleCooldownB)
+coroutine.wrap(VNSAUZH_fake_script)()
+local function GHDQGXF_fake_script() -- NoclipB_6.Hover 
+	local script = Instance.new('LocalScript', NoclipB_6)
 
 	local Mouse = game.Players.LocalPlayer:GetMouse()
 	local button = script.Parent
@@ -1710,9 +1894,9 @@ local function VZRFJHZ_fake_script() -- NoBottleCooldownB.Hover
 		G:Destroy()
 	end)
 end
-coroutine.wrap(VZRFJHZ_fake_script)()
-local function QSPA_fake_script() -- NoBottleCooldownB.ButtonEffect 
-	local script = Instance.new('LocalScript', NoBottleCooldownB)
+coroutine.wrap(GHDQGXF_fake_script)()
+local function SCMBNZD_fake_script() -- NoclipB_6.ButtonEffect 
+	local script = Instance.new('LocalScript', NoclipB_6)
 
 	script.Parent.MouseEnter:Connect(function()
 		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(10, 116, 65)}):Play()
@@ -1721,13 +1905,12 @@ local function QSPA_fake_script() -- NoBottleCooldownB.ButtonEffect
 		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(18, 208, 119)}):Play()
 	end)
 	script.Parent.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.Character.Bottle.MaxUses:Destroy()
-		game.Players.LocalPlayer.Character.Bottle.Cooldown.Value = 0.01
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
 	end)
 end
-coroutine.wrap(QSPA_fake_script)()
-local function IPYAKM_fake_script() -- TeamInfectedB.Hover 
-	local script = Instance.new('LocalScript', TeamInfectedB)
+coroutine.wrap(SCMBNZD_fake_script)()
+local function LOPBUJ_fake_script() -- NoclipB_7.Hover 
+	local script = Instance.new('LocalScript', NoclipB_7)
 
 	local Mouse = game.Players.LocalPlayer:GetMouse()
 	local button = script.Parent
@@ -1747,9 +1930,9 @@ local function IPYAKM_fake_script() -- TeamInfectedB.Hover
 		G:Destroy()
 	end)
 end
-coroutine.wrap(IPYAKM_fake_script)()
-local function EXKFZ_fake_script() -- TeamInfectedB.ButtonEffect 
-	local script = Instance.new('LocalScript', TeamInfectedB)
+coroutine.wrap(LOPBUJ_fake_script)()
+local function XFOJ_fake_script() -- NoclipB_7.ButtonEffect 
+	local script = Instance.new('LocalScript', NoclipB_7)
 
 	script.Parent.MouseEnter:Connect(function()
 		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(10, 116, 65)}):Play()
@@ -1758,85 +1941,11 @@ local function EXKFZ_fake_script() -- TeamInfectedB.ButtonEffect
 		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(18, 208, 119)}):Play()
 	end)
 	script.Parent.MouseButton1Click:Connect(function()
-		workspace.Map.Infectors.Infector.Part.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
-		workspace.Map.Infectors.Infector.Part.CanCollide = false
-		game.Players.LocalPlayer.Character.Infected.InfectedSpeed.Value = 0
+	   workspace.Gravity = 110
 	end)
 end
-coroutine.wrap(EXKFZ_fake_script)()
-local function BMRH_fake_script() -- TeamNeaturalB.Hover 
-	local script = Instance.new('LocalScript', TeamNeaturalB)
-
-	local Mouse = game.Players.LocalPlayer:GetMouse()
-	local button = script.Parent
-	local SK = false
-	local Zone = script.Parent.Effect
-	local SpeedS = 1
-	local TweenService = game:GetService("TweenService") 
-	local tweenClick = TweenInfo.new(SpeedS,Enum.EasingStyle.Quint,Enum.EasingDirection.Out,0,false,0)
-	
-	button.MouseButton1Click:connect(function()	
-		local G = Zone:Clone()
-		G.Position = UDim2.new(0,Mouse.X-button.AbsolutePosition.X,0,Mouse.Y-button.AbsolutePosition.Y)
-		G.Parent = button
-		local tween = TweenService:Create(G, tweenClick, {Size = UDim2.new(1,0,1,0),ImageTransparency = 1})
-		tween:Play()
-		wait(SpeedS)
-		G:Destroy()
-	end)
-end
-coroutine.wrap(BMRH_fake_script)()
-local function LAUBNTG_fake_script() -- TeamNeaturalB.ButtonEffect 
-	local script = Instance.new('LocalScript', TeamNeaturalB)
-
-	script.Parent.MouseEnter:Connect(function()
-		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(10, 116, 65)}):Play()
-	end)
-	script.Parent.MouseLeave:Connect(function()
-		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(18, 208, 119)}):Play()
-	end)
-	script.Parent.MouseButton1Click:Connect(function()
-		Workspace.Remote.TeamEvent:FireServer("White")
-	end)
-end
-coroutine.wrap(LAUBNTG_fake_script)()
-local function STQFYYA_fake_script() -- FinalBaseB.Hover 
-	local script = Instance.new('LocalScript', FinalBaseB)
-
-	local Mouse = game.Players.LocalPlayer:GetMouse()
-	local button = script.Parent
-	local SK = false
-	local Zone = script.Parent.Effect
-	local SpeedS = 1
-	local TweenService = game:GetService("TweenService") 
-	local tweenClick = TweenInfo.new(SpeedS,Enum.EasingStyle.Quint,Enum.EasingDirection.Out,0,false,0)
-	
-	button.MouseButton1Click:connect(function()	
-		local G = Zone:Clone()
-		G.Position = UDim2.new(0,Mouse.X-button.AbsolutePosition.X,0,Mouse.Y-button.AbsolutePosition.Y)
-		G.Parent = button
-		local tween = TweenService:Create(G, tweenClick, {Size = UDim2.new(1,0,1,0),ImageTransparency = 1})
-		tween:Play()
-		wait(SpeedS)
-		G:Destroy()
-	end)
-end
-coroutine.wrap(STQFYYA_fake_script)()
-local function RQIB_fake_script() -- FinalBaseB.ButtonEffect 
-	local script = Instance.new('LocalScript', FinalBaseB)
-
-	script.Parent.MouseEnter:Connect(function()
-		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(10, 116, 65)}):Play()
-	end)
-	script.Parent.MouseLeave:Connect(function()
-		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(18, 208, 119)}):Play()
-	end)
-	script.Parent.MouseButton1Click:Connect(function()
-		game:GetService("Workspace").Map.ConstantTerrain.KillGateSwitcher.Gate:Destroy()
-	end)
-end
-coroutine.wrap(RQIB_fake_script)()
-local function DGMELB_fake_script() -- Logo.Rainbow 
+coroutine.wrap(XFOJ_fake_script)()
+local function NMFZ_fake_script() -- Logo.Rainbow 
 	local script = Instance.new('LocalScript', Logo)
 
 	while true do
@@ -1872,4 +1981,261 @@ local function DGMELB_fake_script() -- Logo.Rainbow
 	
 	end
 end
-coroutine.wrap(DGMELB_fake_script)()
+coroutine.wrap(NMFZ_fake_script)()
+local function GJUF_fake_script() -- BringWeaponsB.Hover 
+	local script = Instance.new('LocalScript', BringWeaponsB)
+
+	local Mouse = game.Players.LocalPlayer:GetMouse()
+	local button = script.Parent
+	local SK = false
+	local Zone = script.Parent.Effect
+	local SpeedS = 1
+	local TweenService = game:GetService("TweenService") 
+	local tweenClick = TweenInfo.new(SpeedS,Enum.EasingStyle.Quint,Enum.EasingDirection.Out,0,false,0)
+	
+	button.MouseButton1Click:connect(function()	
+		local G = Zone:Clone()
+		G.Position = UDim2.new(0,Mouse.X-button.AbsolutePosition.X,0,Mouse.Y-button.AbsolutePosition.Y)
+		G.Parent = button
+		local tween = TweenService:Create(G, tweenClick, {Size = UDim2.new(1,0,1,0),ImageTransparency = 1})
+		tween:Play()
+		wait(SpeedS)
+		G:Destroy()
+	end)
+end
+coroutine.wrap(GJUF_fake_script)()
+local function PZJY_fake_script() -- BringWeaponsB.ButtonEffect 
+	local script = Instance.new('LocalScript', BringWeaponsB)
+
+	script.Parent.MouseEnter:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(10, 116, 65)}):Play()
+	end)
+	script.Parent.MouseLeave:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(18, 208, 119)}):Play()
+	end)
+	script.Parent.MouseButton1Click:Connect(function()
+		workspace.Map.HumanBase.Vendor.BottleCollection.Bottle.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+		workspace.Map.HumanBase.Vendor.BatCollection.Bat.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+	end)
+end
+coroutine.wrap(PZJY_fake_script)()
+local function FTCI_fake_script() -- FinalBaseB.Hover 
+	local script = Instance.new('LocalScript', FinalBaseB)
+
+	local Mouse = game.Players.LocalPlayer:GetMouse()
+	local button = script.Parent
+	local SK = false
+	local Zone = script.Parent.Effect
+	local SpeedS = 1
+	local TweenService = game:GetService("TweenService") 
+	local tweenClick = TweenInfo.new(SpeedS,Enum.EasingStyle.Quint,Enum.EasingDirection.Out,0,false,0)
+	
+	button.MouseButton1Click:connect(function()	
+		local G = Zone:Clone()
+		G.Position = UDim2.new(0,Mouse.X-button.AbsolutePosition.X,0,Mouse.Y-button.AbsolutePosition.Y)
+		G.Parent = button
+		local tween = TweenService:Create(G, tweenClick, {Size = UDim2.new(1,0,1,0),ImageTransparency = 1})
+		tween:Play()
+		wait(SpeedS)
+		G:Destroy()
+	end)
+end
+coroutine.wrap(FTCI_fake_script)()
+local function FYJYXPC_fake_script() -- FinalBaseB.ButtonEffect 
+	local script = Instance.new('LocalScript', FinalBaseB)
+
+	script.Parent.MouseEnter:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(10, 116, 65)}):Play()
+	end)
+	script.Parent.MouseLeave:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(18, 208, 119)}):Play()
+	end)
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("Workspace").Map.ConstantTerrain.KillGateSwitcher.Gate:Destroy()
+	end)
+end
+coroutine.wrap(FYJYXPC_fake_script)()
+local function SJAZ_fake_script() -- NoBatCooldownB.Hover 
+	local script = Instance.new('LocalScript', NoBatCooldownB)
+
+	local Mouse = game.Players.LocalPlayer:GetMouse()
+	local button = script.Parent
+	local SK = false
+	local Zone = script.Parent.Effect
+	local SpeedS = 1
+	local TweenService = game:GetService("TweenService") 
+	local tweenClick = TweenInfo.new(SpeedS,Enum.EasingStyle.Quint,Enum.EasingDirection.Out,0,false,0)
+	
+	button.MouseButton1Click:connect(function()	
+		local G = Zone:Clone()
+		G.Position = UDim2.new(0,Mouse.X-button.AbsolutePosition.X,0,Mouse.Y-button.AbsolutePosition.Y)
+		G.Parent = button
+		local tween = TweenService:Create(G, tweenClick, {Size = UDim2.new(1,0,1,0),ImageTransparency = 1})
+		tween:Play()
+		wait(SpeedS)
+		G:Destroy()
+	end)
+end
+coroutine.wrap(SJAZ_fake_script)()
+local function OWCDEI_fake_script() -- NoBatCooldownB.ButtonEffect 
+	local script = Instance.new('LocalScript', NoBatCooldownB)
+
+	script.Parent.MouseEnter:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(10, 116, 65)}):Play()
+	end)
+	script.Parent.MouseLeave:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(18, 208, 119)}):Play()
+	end)
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Bat.MaxUses:Destroy()
+		game.Players.LocalPlayer.Character.Bat.Cooldown.Value = 0.01
+	end)
+end
+coroutine.wrap(OWCDEI_fake_script)()
+local function VZMSN_fake_script() -- NoBottleCooldownB.Hover 
+	local script = Instance.new('LocalScript', NoBottleCooldownB)
+
+	local Mouse = game.Players.LocalPlayer:GetMouse()
+	local button = script.Parent
+	local SK = false
+	local Zone = script.Parent.Effect
+	local SpeedS = 1
+	local TweenService = game:GetService("TweenService") 
+	local tweenClick = TweenInfo.new(SpeedS,Enum.EasingStyle.Quint,Enum.EasingDirection.Out,0,false,0)
+	
+	button.MouseButton1Click:connect(function()	
+		local G = Zone:Clone()
+		G.Position = UDim2.new(0,Mouse.X-button.AbsolutePosition.X,0,Mouse.Y-button.AbsolutePosition.Y)
+		G.Parent = button
+		local tween = TweenService:Create(G, tweenClick, {Size = UDim2.new(1,0,1,0),ImageTransparency = 1})
+		tween:Play()
+		wait(SpeedS)
+		G:Destroy()
+	end)
+end
+coroutine.wrap(VZMSN_fake_script)()
+local function LYKCS_fake_script() -- NoBottleCooldownB.ButtonEffect 
+	local script = Instance.new('LocalScript', NoBottleCooldownB)
+
+	script.Parent.MouseEnter:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(10, 116, 65)}):Play()
+	end)
+	script.Parent.MouseLeave:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(18, 208, 119)}):Play()
+	end)
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Bottle.MaxUses:Destroy()
+		game.Players.LocalPlayer.Character.Bottle.Cooldown.Value = 0.01
+	end)
+end
+coroutine.wrap(LYKCS_fake_script)()
+local function ABQFJI_fake_script() -- NoCollapseB.Hover 
+	local script = Instance.new('LocalScript', NoCollapseB)
+
+	local Mouse = game.Players.LocalPlayer:GetMouse()
+	local button = script.Parent
+	local SK = false
+	local Zone = script.Parent.Effect
+	local SpeedS = 1
+	local TweenService = game:GetService("TweenService") 
+	local tweenClick = TweenInfo.new(SpeedS,Enum.EasingStyle.Quint,Enum.EasingDirection.Out,0,false,0)
+	
+	button.MouseButton1Click:connect(function()	
+		local G = Zone:Clone()
+		G.Position = UDim2.new(0,Mouse.X-button.AbsolutePosition.X,0,Mouse.Y-button.AbsolutePosition.Y)
+		G.Parent = button
+		local tween = TweenService:Create(G, tweenClick, {Size = UDim2.new(1,0,1,0),ImageTransparency = 1})
+		tween:Play()
+		wait(SpeedS)
+		G:Destroy()
+	end)
+end
+coroutine.wrap(ABQFJI_fake_script)()
+local function YKVFWBE_fake_script() -- NoCollapseB.ButtonEffect 
+	local script = Instance.new('LocalScript', NoCollapseB)
+
+	script.Parent.MouseEnter:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(10, 116, 65)}):Play()
+	end)
+	script.Parent.MouseLeave:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(18, 208, 119)}):Play()
+	end)
+	script.Parent.MouseButton1Click:Connect(function()
+		Workspace.Map.System.Weight:Destroy()
+	end)
+end
+coroutine.wrap(YKVFWBE_fake_script)()
+local function HTHAGL_fake_script() -- ResetB.Hover 
+	local script = Instance.new('LocalScript', ResetB)
+
+	local Mouse = game.Players.LocalPlayer:GetMouse()
+	local button = script.Parent
+	local SK = false
+	local Zone = script.Parent.Effect
+	local SpeedS = 1
+	local TweenService = game:GetService("TweenService") 
+	local tweenClick = TweenInfo.new(SpeedS,Enum.EasingStyle.Quint,Enum.EasingDirection.Out,0,false,0)
+	
+	button.MouseButton1Click:connect(function()	
+		local G = Zone:Clone()
+		G.Position = UDim2.new(0,Mouse.X-button.AbsolutePosition.X,0,Mouse.Y-button.AbsolutePosition.Y)
+		G.Parent = button
+		local tween = TweenService:Create(G, tweenClick, {Size = UDim2.new(1,0,1,0),ImageTransparency = 1})
+		tween:Play()
+		wait(SpeedS)
+		G:Destroy()
+	end)
+end
+coroutine.wrap(HTHAGL_fake_script)()
+local function VARATR_fake_script() -- ResetB.ButtonEffect 
+	local script = Instance.new('LocalScript', ResetB)
+
+	script.Parent.MouseEnter:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(10, 116, 65)}):Play()
+	end)
+	script.Parent.MouseLeave:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(18, 208, 119)}):Play()
+	end)
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Head:Destroy()
+	end)
+end
+coroutine.wrap(VARATR_fake_script)()
+local function TSCWB_fake_script() -- TeamInfectedB.Hover 
+	local script = Instance.new('LocalScript', TeamInfectedB)
+
+	local Mouse = game.Players.LocalPlayer:GetMouse()
+	local button = script.Parent
+	local SK = false
+	local Zone = script.Parent.Effect
+	local SpeedS = 1
+	local TweenService = game:GetService("TweenService") 
+	local tweenClick = TweenInfo.new(SpeedS,Enum.EasingStyle.Quint,Enum.EasingDirection.Out,0,false,0)
+	
+	button.MouseButton1Click:connect(function()	
+		local G = Zone:Clone()
+		G.Position = UDim2.new(0,Mouse.X-button.AbsolutePosition.X,0,Mouse.Y-button.AbsolutePosition.Y)
+		G.Parent = button
+		local tween = TweenService:Create(G, tweenClick, {Size = UDim2.new(1,0,1,0),ImageTransparency = 1})
+		tween:Play()
+		wait(SpeedS)
+		G:Destroy()
+	end)
+end
+coroutine.wrap(TSCWB_fake_script)()
+local function QMRCVC_fake_script() -- TeamInfectedB.ButtonEffect 
+	local script = Instance.new('LocalScript', TeamInfectedB)
+
+	script.Parent.MouseEnter:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(10, 116, 65)}):Play()
+	end)
+	script.Parent.MouseLeave:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(18, 208, 119)}):Play()
+	end)
+	script.Parent.MouseButton1Click:Connect(function()
+		workspace.Map.Infectors.Infector.Part.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+		workspace.Map.Infectors.Infector.Part.CanCollide = false
+		game.Players.LocalPlayer.Character.Infected.InfectedSpeed.Value = 0
+	end)
+end
+coroutine.wrap(QMRCVC_fake_script)()
